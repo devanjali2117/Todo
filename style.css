@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+   background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background-color:white;
+  border-radius: 10px;
+  padding: 20px 20px ;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+.branding-img{
+width: 20px;
+}
+.text {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  padding: 16px 50px;
+  background: #ff5945;
+  width: 20%;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+ul li{
+list-style: none;
+font-size: 17px;
+padding: 12px 8px 12px 50px;
+user-select: none;
+cursor:pointer;
+position: relative;
+}
+
+ul li:before{
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(./To-Do-Img/./images/unchecked.png);
+  background-size: cover;
+  background-position:center;
+  top: 12px;
+  left:8px;
+
+}
+
+.list{
+    /* padding: 20px;
+    cursor: pointer; */
+
+}
